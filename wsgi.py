@@ -1,6 +1,6 @@
 import os
 from gunicorn.app.base import BaseApplication
-from src.main import app
+from main import app
 
 class StandaloneApplication(BaseApplication):
     def __init__(self, app, options=None):
